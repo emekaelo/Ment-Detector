@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/*slick slider with lightbox feature*/
+#default-demo {
+    width: 50%;
+    margin: auto;
+  }
+
+  .col-xs-4 {
+    margin: 10px;
+  }
+/*slick slider with lightbox feature*/
+
+/*scroll to top*/
+.totop svg {
+    width: 20px;
+    height: 20px;
+    fill: #FFF;
+}
+
+.totop-inner {
+    z-index: 299;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: #f6b71f;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFF;
+    top: auto;
+    left: auto;
+    right: 30px;
+    bottom: 50px;
+    cursor: pointer;
+    border-radius: 2px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+/*scroll to top*/
+
+.hero {
+  background-image: url("/img/herobackground.png");
+  max-width: 100%;
+  height: 600px;
+  color: white;
+}
+
+.hero1 {
+  
+  display: flex;
+}
+
+h2 {
+  font-weight: 700;
+  padding: 10px;
+}
+
+h2 span {
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.intro {
+  width: 670px;
+  margin: 40px;
+  
+}
+
+.intro h1 {
+  
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.intro span {
+  font-weight: 800;
+}
+
+.form-container input[type='email'] {
+width: 428px;
+height: 56px;
+border-radius: 4px;
+padding: 16px;
+}
+
+.form-container input[type='submit'] {
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 56px;
+  background-color: #3B4E76;
+border-radius: 4px;
+color: white;
+font-weight: 600;
+  }
