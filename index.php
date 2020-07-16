@@ -25,7 +25,7 @@
     <a id="top"></a>
     <!--position for "scroll to top" button-->
     <div class="hero">
-        <h2><span>M</span>ent<span>D</span>etector</h2>
+        <img class="img-fluid logo" src="img/MDlogo.png" alt="Ment Detector logo">
         <div class="hero1">
 
             <div class="intro">
@@ -35,12 +35,12 @@
                     ever
                     know.</p>
                 <div></div>
-
+                <div style="height: 120px;"></div>
                 <!--subscribe form that sends email to database-->
                 <div class="form-container">
                     <form action="info.php" method="POST">
                         <input type="email" name="email" id="email" placeholder="Email here">
-                        <input type="submit" value="Get Early Access"><br>
+                        <input type="submit" value="Notify Me"><br>
                         <!--php prompt code-->
                         <?php if (isset($email_error)) {
                             echo $email_error;
@@ -101,7 +101,7 @@
                     to what type of situation you would be involved in and the type of notification you’ll like the app
                     to give you after analysis.</p>
             </div>
-            <img src="img/illust1.png" alt="ready lady illustration">
+            <img class="img-fluid" src="img/illust1.png" alt="ready lady illustration">
         </div>
     </div>
     <div class="step2">
@@ -112,7 +112,7 @@
                     step verification, et. These are the things that’ll help the app better analyse the situation you
                     are in and also better know how to notify and help you get out of it.</p>
             </div>
-            <img src="img/illust2.png" alt="setup lady illustration">
+            <img class="img-fluid" src="img/illust2.png" alt="setup lady illustration">
         </div>
         <img class="img-fluid" src="img/heromockup.png">
     </div>
@@ -125,7 +125,7 @@
                     can do this immediately after setting up the application, when you are already at the place or
                     speaking with the person wou want analysed.</p>
             </div>
-            <img src="img/illust3.png" alt="chilling guy illustration">
+            <img class="img-fluid" src="img/illust3.png" alt="chilling guy illustration">
         </div>
     </div>
     <div class="step4">
@@ -136,7 +136,7 @@
                     critical cases, the results would be texted to the registered phone number and in extremely
                     dangerous cases, you emergency contacts would be notified too.</p>
             </div>
-            <img src="img/illust4.png" alt="result guy illustration">
+            <img class="img-fluid" src="img/illust4.png" alt="result guy illustration">
         </div>
         <img class="img-fluid" src="img/heromockup.png">
     </div>
@@ -149,7 +149,7 @@
                     it for future reference. The application has a database where it stores this data and you can access
                     it anytime you want.</p>
             </div>
-            <img src="img/illust5.png" alt="past record review group illustration">
+            <img class="img-fluid" src="img/illust5.png" alt="past record review group illustration">
         </div>
     </div>
     <div class="step6">
@@ -160,28 +160,32 @@
                     you page and also help you as you navigate through it everyday. This manual page has all necessary
                     information you’ll need to make this application work well.</p>
             </div>
-            <img src="img/illust6.png" alt="guy at desk illustration">
+            <img class="img-fluid" src="img/illust6.png" alt="guy at desk illustration">
         </div>
         <img class="img-fluid" src="img/heromockup.png">
     </div>
-    <p class="closing">MentDetector will sniff out people who may hurt you before they do. Now, you’re
+    <p class="closing">MentDetector will sniff out people who may hurt you before they do.<br> Now, you’re
         <span>one</span> <span>step</span> <span>ahead!</span> </p>
-    <!--subscribe form that sends email to database-->
-    <div class="form-container lastform">
-        <form action="info.php" method="POST">
-            <input type="email" name="email" id="email" placeholder="Email here">
-            <input type="submit" value="Get Early Access"><br>
-            <!--php prompt code-->
-            <?php if (isset($email_error)) {
+    <footer>
+        <p class="conv">Get <span>tips</span> and <span>insights</span> on the app to have a <span>headstart</span> and
+            be on the go
+            when it <span>launches!</span></p>
+        <!--subscribe form that sends email to database-->
+        <div class="form-container lastform">
+            <form action="info.php" method="POST">
+                <input type="email" name="email" id="email" placeholder="Email here">
+                <input type="submit" value="Notify Me"><br>
+                <!--php prompt code-->
+                <?php if (isset($email_error)) {
             echo $email_error;
         }
         ?>
-            <!--php prompt code-->
-        </form>
-    </div>
-    <!--subscribe form that sends email to database-->
-    <footer>
-        <span>Copyright 2020 Pharoah. All rights reserved</span>
+                <!--php prompt code-->
+            </form>
+        </div>
+        <!--subscribe form that sends email to database-->
+
+        <span class="end">Copyright 2020 Pharoah. All rights reserved</span>
     </footer>
 
 

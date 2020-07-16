@@ -54,23 +54,26 @@ body {
 
 .hero {
   /*background-image: url("/img/straightherobackground.png");*/
-  background: url("/img/straightherobackground.png") no-repeat center center fixed;
+  background: url("/img/straightherobackground.png") no-repeat center center;
   background-size: cover;
   height: 100%;
   overflow: hidden;
-
   /*height: 880px;*/
   color: white;
+}
+
+.hero .logo {
+  margin: 20px 40px;
 }
 
 .hero1 {
   height:  800px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 h2 {
   font-weight: 700;
-  padding: 10px;
 }
 
 h2 span {
@@ -94,37 +97,42 @@ h2 span {
   font-weight: 800;
 }
 
-.form-container {
-  width: 100%;
+.form-container form {
+  display: flex;
+  justify-content: space-between;
 }
 
 .form-container input[type='email'] {
-width: 428px;
-height: 56px;
+width: 68%;
+height: 40px;
 border-radius: 4px;
 padding: 16px;
+border-style: none;
 }
 
+
+
 .form-container input[type='submit'] {
-  padding-left: 16px;
-  padding-right: 16px;
-  height: 56px;
-  background-color: #3B4E76;
-border-radius: 4px;
-color: white;
-font-weight: 600;
+  height: 40px;
+  background-color: #6C63FF;;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  border-style: none;
+  width: 30%;
+  
   }
 
 .service {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-left: auto;
   padding: 30px 83px;
   box-shadow: 5px 5px 66px rgba(0, 0, 0, 0.25);
   border-radius: 16px 0px 0px 16px;
-  width: 1251px;
-  height: 250px;
+  width: 85%;
   margin-top: 100px;
   margin-bottom: 80px;
   text-align: center;
@@ -148,20 +156,21 @@ border: 2px solid #4C4981;
   background-color: #4C4981;
   border-top-right-radius: 66px;
   border-bottom-right-radius: 66px;
-  width: 60%;
+  width: 60vw;
   color: #FFF;
   text-align: right;
-  padding-right: 40px;
+  padding-right: 4vw;
   margin-bottom: 40px;
 }
 
 .step1, .step3, .step5 {
-  background-image: url("../img/pinkblob1.png");
+  background-image: url("/img/pinkblob1.png");
   background-repeat: no-repeat;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin-right: 100px;
+  flex-wrap: wrap;
 }
 
 .step3 {
@@ -179,7 +188,8 @@ background-position-y: 70%;
   background-repeat: no-repeat;
   background-position: right;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
   align-items: center;
   margin-left: 100px;
 }
@@ -206,7 +216,7 @@ p.closing, footer span {
   font-weight: 600;
   font-size: 25px;
   color: #4C4981;
-  width: 807px;
+  width: 80vw;
   margin: auto;
   text-align: center;
 }
@@ -227,14 +237,145 @@ p.closing span:nth-of-type(3) {
 }
 
 .lastform {
- margin-top: 66px;
- margin-bottom: 66px;
-  display: flex;
-  justify-content: center;
+ width: 49.7%;
+ margin: 66px auto;
+}
+
+footer {
+  background-image: url("/img/footermockupbg.png");
+  
+}
+
+footer p {
+  color: #FFF;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 45px;
 }
 
 footer span {
+  font-size: 18px;
+  color: #FFF;
+}
+
+footer .end {
 font-size: 14px;
 display: block;
-margin-bottom: 50px;
+padding-bottom: 50px;
+color: #FFF;
+}
+
+@media only screen and (max-width: 768px) {
+.hero {
+  background-image: url("/img/mobileherobackground.png");
+
+}
+
+.hero1{
+  height: 1028px;
+}
+
+.intro {
+ margin: 15px;
+  width: 90%;
+}
+
+.intro h1 {
+  font-size: 32px;
+}
+
+.service {
+  padding: 30px 23px;
+  margin: 30px auto;
+  border-radius: 16px 16px 16px 16px;
+}
+
+.steps {
+  width: 70vw;
+}
+
+.steps h2{
+font-size: 6vw;
+}
+
+.step1 {
+  background-image: url("/img/mobilepinkblob1.png");
+background-size:  contain;
+}
+
+.step3 {
+  background-image: url("/img/mobilepinkblob2.png");
+  background-position: 0 -25%;
+  background-size: contain;
+}
+
+.step5 {
+  background-image: url("/img/mobilepinkblob3.png");
+  background-position: 0 -70px;
+  background-size: contain;
+}
+
+.step1, .step3, .step5 {
+  margin-right: 0px;
+}
+
+.step1 div, .step2 div, .step3 div, .step4 div, .step5 div, .step6 div {
+  width: 85vw;
+}
+
+.step1 div h3, .step2 div h3, .step3 div h3, .step4 div h3, .step5 div h3, .step6 div h3{
+  font-size: 20px;
+}
+
+.step2 {
+  background-image: url("/img/mobileblueblob1.png");
+  margin-left: 0px;
+  background-position-y: -25%;
+  background-size: contain;
+}
+
+.step4 {
+  background-image: url("/img/mobileblueblob2.png");
+  margin-left: 0px;
+  background-position: 0px -250px;
+  background-size: contain;
+}
+
+.step6 {
+  background-image: url("/img/mobileblueblob3.png");
+  margin-left: 0px;
+  background-position: right -150px;
+  background-size: contain;
+}
+
+p.closing {
+  font-size: 4vw;
+  margin-top: 30px;
+}
+
+p.closing span:nth-of-type(1) {
+}
+
+p.closing span:nth-of-type(2) {
+  font-size: 6vw;
+}
+
+p.closing span:nth-of-type(3) {
+  font-size: 8vw;
+}
+
+footer p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.lastform {
+  width: 80vw;
+ }
+
+footer {
+  background-position: -180px 0;
+}
+
+
 }
