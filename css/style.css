@@ -53,14 +53,18 @@ body {
 /*scroll to top*/
 
 .hero {
-  background-image: url("/img/herobackground.png");
-  max-width: 100%;
-  height: 600px;
+  /*background-image: url("/img/straightherobackground.png");*/
+  background: url("/img/straightherobackground.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
+  /*height: 880px;*/
   color: white;
 }
 
 .hero1 {
-  
+  height:  800px;
   display: flex;
 }
 
@@ -90,6 +94,10 @@ h2 span {
   font-weight: 800;
 }
 
+.form-container {
+  width: 100%;
+}
+
 .form-container input[type='email'] {
 width: 428px;
 height: 56px;
@@ -106,3 +114,127 @@ border-radius: 4px;
 color: white;
 font-weight: 600;
   }
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  padding: 30px 83px;
+  box-shadow: 5px 5px 66px rgba(0, 0, 0, 0.25);
+  border-radius: 16px 0px 0px 16px;
+  width: 1251px;
+  height: 250px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+  color: #4C4981;
+}
+
+.service div {
+width: 315px;
+}
+
+.service h4 {
+ font-weight: 600;
+  }
+
+.service hr {
+width: 84px;
+border: 2px solid #4C4981;
+}
+
+.steps {
+  background-color: #4C4981;
+  border-top-right-radius: 66px;
+  border-bottom-right-radius: 66px;
+  width: 60%;
+  color: #FFF;
+  text-align: right;
+  padding-right: 40px;
+  margin-bottom: 40px;
+}
+
+.step1, .step3, .step5 {
+  background-image: url("../img/pinkblob1.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.step3 {
+  background-image: url("../img/pinkblob2.png");
+background-position-y: 70%;
+}
+
+.step5 {
+  background-image: url("../img/pinkblob3.png");
+  background-position-y: 20%;
+}
+
+.step2, .step4, .step6 {
+  background-image: url("../img/blueblob1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.step4 {
+  background-image: url("../img/blueblob2.png");
+
+}
+
+.step6 {
+  background-image: url("../img/blueblob3.png");
+}
+
+.step1 div, .step2 div, .step3 div, .step4 div, .step5 div, .step6 div {
+  width: 500px;
+  color: #4C4981;
+}
+
+.step1 div h3, .step2 div h3, .step3 div h3, .step4 div h3, .step5 div h3, .step6 div h3{
+  font-weight: bold;
+}
+
+p.closing, footer span {
+  font-weight: 600;
+  font-size: 25px;
+  color: #4C4981;
+  width: 807px;
+  margin: auto;
+  text-align: center;
+}
+
+
+p.closing span:nth-of-type(1) {
+  font-weight: 800;
+}
+
+p.closing span:nth-of-type(2) {
+  font-weight: 800;
+  font-size: 34px;
+}
+
+p.closing span:nth-of-type(3) {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.lastform {
+ margin-top: 66px;
+ margin-bottom: 66px;
+  display: flex;
+  justify-content: center;
+}
+
+footer span {
+font-size: 14px;
+display: block;
+margin-bottom: 50px;
+}

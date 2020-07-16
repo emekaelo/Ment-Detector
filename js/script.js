@@ -41,3 +41,18 @@ sr.reveal('#default-demo', {
     opacity: 0,
     scale: 0.8
 });
+sr.reveal('step1', {
+    origin: 'top',
+    distance: '100px',
+    duration: 5000,
+    opacity: 0,
+    scale: 0.2
+});
+sr.reveal('img-fluid', {
+    duration: 2000,
+    delay: 1000,
+    origin: 'left',
+    distance: '300px',
+    opacity: 0,
+    scale: 0.8
+});
