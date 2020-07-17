@@ -120,11 +120,10 @@
 
         <div>
             <div class="stepdetail">
-                <h3>Get The App, Sign Up/ Sign In</h3><br>
-                <p>Download the app, complete your registeration and comfirm your email address.<br> Sign In afteward,
-                    follow the guides and setup the application to suit your enviroments and be specific as possible, as
-                    to what type of situation you would be involved in and the type of notification you’ll like the app
-                    to give you after analysis.</p>
+                <h3>Downnload & Install Application</h3><br>
+                <p>As as we launch, this appication will be made available on both Google PlayStore and Apple Store for
+                    easy access and downloads. Did i also mention that this application is free? It is as free as the
+                    air you breath so subscribe and be notified once it is available.</p>
             </div>
             <img class="img-fluid" src="img/fillust1.png" alt="ready lady illustration">
         </div>
@@ -132,10 +131,10 @@
     <div class="step2">
         <div>
             <div class="stepdetail">
-                <h3>Set Up Your Application</h3><br>
-                <p>Set up your profile, preferences, emercy contacts, prefered key words/phrases, notification type, two
-                    step verification, et. These are the things that’ll help the app better analyse the situation you
-                    are in and also better know how to notify and help you get out of it.</p>
+                <h3>Sign Up</h3><br>
+                <p>Once donwload and installation is complete, the next step is to sign up, verify and set up your
+                    account. Doing this will help make sure that your app is secured and that only you can login to it.
+                </p>
             </div>
             <img class="img-fluid" src="img/fillust2.png" alt="setup lady illustration">
         </div>
@@ -145,10 +144,10 @@
         <img class="img-fluid mock-left" src="img/step3mockup.png">
         <div>
             <div class="stepdetail">
-                <h3>Activate Your Application</h3><br>
-                <p>Activating your application allows it to listen in on your conversation and start it’s analysis. You
-                    can do this immediately after setting up the application, when you are already at the place or
-                    speaking with the person wou want analysed.</p>
+                <h3>Log In</h3><br>
+                <p>Once your email verification is a success and your account have been setup, next thing is to login to
+                    the application start using. Like we said, setting up and usability of this application is extremely
+                    simple, but it’s importance is unrivalled.</p>
             </div>
             <img class="img-fluid" src="img/fillust3.png" alt="chilling guy illustration">
         </div>
@@ -156,10 +155,10 @@
     <div class="step4">
         <div>
             <div class="stepdetail">
-                <h3>Check Your Results</h3><br>
-                <p>You can check the result of the analysis on the result page or in your registered email address. In
-                    critical cases, the results would be texted to the registered phone number and in extremely
-                    dangerous cases, you emergency contacts would be notified too.</p>
+                <h3>Activate Your Application</h3><br>
+                <p>Activating your application allows it to listen in on your conversation and start it’s analysis. You
+                    can do this immediately after setting up the application, when you are already at the place or
+                    speaking with the person wou want analysed.</p>
             </div>
             <img class="img-fluid" src="img/illust3.png" alt="result guy illustration">
         </div>
@@ -169,10 +168,12 @@
         <img class="img-fluid mock-left" src="img/step5mockup.png">
         <div>
             <div class="stepdetail">
-                <h3>Check Past Records</h3><br>
-                <p>MentDetector doesn’t just check and forget, it also keeps track of past records just in case you need
-                    it for future reference. The application has a database where it stores this data and you can access
-                    it anytime you want.</p>
+                <h3>Wait For Analysis</h3><br>
+                <p>Wait as our proprietory and patented algorithm & software analyses the date and the recording from
+                    your conversation with the subject. Note that this software has been tested and is currently used by
+                    the
+                    United States military forces, Homeland Security and the FBI. Cutting-edge technology has never been
+                    better</p>
             </div>
             <img class="img-fluid" src="img/fillust5.png" alt="past record review group illustration">
         </div>
@@ -180,10 +181,10 @@
     <div class="step6">
         <div>
             <div class="stepdetail">
-                <h3>The Manual</h3><br>
-                <p>Just in case you forget what is what, the application also has a manual page that’ll help you setup
-                    you page and also help you as you navigate through it everyday. This manual page has all necessary
-                    information you’ll need to make this application work well.</p>
+                <h3>Check Your Results & Take Action</h3><br>
+                <p>You can check the result of the analysis on the result page or in your registered email address. In
+                    critical cases, the results would be texted to the registered phone number and in extremely
+                    dangerous cases, you emergency contacts would be notified too.</p>
             </div>
             <img class="img-fluid" src="img/illust4.png" alt="guy at desk illustration">
         </div>
