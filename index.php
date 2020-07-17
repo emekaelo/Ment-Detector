@@ -13,11 +13,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.css">
-
-
     <script type="text/javascript" src="js/script.js" defer></script>
-
-
 </head>
 
 <body>
@@ -25,7 +21,7 @@
     <a id="top"></a>
     <!--position for "scroll to top" button-->
     <div class="hero">
-        <img class="img-fluid logo" src="img/MDlogo.png" alt="Ment Detector logo">
+        <a href="#"><img class="img-fluid logo" src="img/MDlogo.png" alt="Ment Detector logo"></a>
         <div class="hero1">
 
             <div class="intro">
@@ -33,9 +29,26 @@
                 <p>MentDetector keeps you safe from the <span>wierdos!</span> and the awesome part, it happens
                     discreetly...noone will
                     ever
-                    know.</p>
+                    know.&#x1f609</p>
                 <div></div>
-                <div style="height: 120px;"></div>
+                <h2>Launching Soon! &#x1f680</h2>
+                <!--countdown timer-->
+                <div class="countdown">
+                    <p><span class="cdtimer">
+
+                        </span>Days</p>
+                    <p><span class="cdtimer">
+
+                        </span>Hours</p>
+                    <p><span class="cdtimer">
+
+                        </span>Minutes</p>
+                    <p><span class="cdtimer">
+
+                        </span>Seconds</p>
+                </div>
+                <!--countdown timer-->
+
                 <!--subscribe form that sends email to database-->
                 <div class="form-container">
                     <form action="info.php" method="POST">
@@ -53,7 +66,7 @@
 
             </div>
             <div class="heromockup">
-                <img class="img-fluid" src="/img/heromockup.png">
+                <img class="img-fluid" src="/img/heromockup3.png">
             </div>
         </div>
 
@@ -66,7 +79,8 @@
             </svg>
             <h4>Easy To Set Up</h4>
             <hr>
-            <p>download and install the app, signup, confirm your email, setup your keywords</p>
+            <p>Smooth and hassle free set up process to get you up and running with the awesome app features. It will be
+                as if you had always been there.</p>
         </div>
         <div><svg width="85" height="60" viewBox="0 0 85 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -75,7 +89,9 @@
             </svg>
             <h4>Easy To Use</h4>
             <hr>
-            <p>The result of the analysis are extremely easy to understand as this will be in percentages and levels.
+            <p>No extra special knowledge is needed, just at the tap of a button, all psychos will be revealed and
+                recorded. Simple
+                right?
             </p>
         </div>
         <div><svg width="51" height="60" viewBox="0 0 51 60" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -85,89 +101,119 @@
             </svg>
             <h4>Keeps You Safe</h4>
             <hr>
-            <p>Be one step ahead of the psychos and take action. They'll never know you had it all figured out.</p>
+            <p>Be one step ahead of the psychos and take action. They'll never know you had it all figured out. In a
+                world of the unknown, this appication can be the difference between life and death.</p>
         </div>
+    </div>
+
+    <h2 class="screens">What people are saying</h2>
+    <div class="talks">
+        <img class="img-fluid" src="/img/tweetshotm.jpg" alt="tweet screenshot">
+        <img class="img-fluid" src="/img/tweetshotx.jpg" alt="tweet screenshot">
     </div>
     <div class="steps">
         <h2>How It Works</h2>
     </div>
     <div class="step1">
-        <img class="img-fluid" src="img/heromockup.png">
+
+        <img class="img-fluid mock-left" src="img/step1mockup.png">
+
         <div>
-            <div>
+            <div class="stepdetail">
                 <h3>Get The App, Sign Up/ Sign In</h3><br>
                 <p>Download the app, complete your registeration and comfirm your email address.<br> Sign In afteward,
                     follow the guides and setup the application to suit your enviroments and be specific as possible, as
                     to what type of situation you would be involved in and the type of notification you’ll like the app
                     to give you after analysis.</p>
             </div>
-            <img class="img-fluid" src="img/illust1.png" alt="ready lady illustration">
+            <img class="img-fluid" src="img/fillust1.png" alt="ready lady illustration">
         </div>
     </div>
     <div class="step2">
         <div>
-            <div>
+            <div class="stepdetail">
                 <h3>Set Up Your Application</h3><br>
                 <p>Set up your profile, preferences, emercy contacts, prefered key words/phrases, notification type, two
                     step verification, et. These are the things that’ll help the app better analyse the situation you
                     are in and also better know how to notify and help you get out of it.</p>
             </div>
-            <img class="img-fluid" src="img/illust2.png" alt="setup lady illustration">
+            <img class="img-fluid" src="img/fillust2.png" alt="setup lady illustration">
         </div>
-        <img class="img-fluid" src="img/heromockup.png">
+        <img class="img-fluid mock-right" src="img/step2mockup.png">
     </div>
     <div class="step3">
-        <img class="img-fluid" src="img/heromockup.png">
+        <img class="img-fluid mock-left" src="img/step3mockup.png">
         <div>
-            <div>
+            <div class="stepdetail">
                 <h3>Activate Your Application</h3><br>
                 <p>Activating your application allows it to listen in on your conversation and start it’s analysis. You
                     can do this immediately after setting up the application, when you are already at the place or
                     speaking with the person wou want analysed.</p>
             </div>
-            <img class="img-fluid" src="img/illust3.png" alt="chilling guy illustration">
+            <img class="img-fluid" src="img/fillust3.png" alt="chilling guy illustration">
         </div>
     </div>
     <div class="step4">
         <div>
-            <div>
+            <div class="stepdetail">
                 <h3>Check Your Results</h3><br>
                 <p>You can check the result of the analysis on the result page or in your registered email address. In
                     critical cases, the results would be texted to the registered phone number and in extremely
                     dangerous cases, you emergency contacts would be notified too.</p>
             </div>
-            <img class="img-fluid" src="img/illust4.png" alt="result guy illustration">
+            <img class="img-fluid" src="img/illust3.png" alt="result guy illustration">
         </div>
-        <img class="img-fluid" src="img/heromockup.png">
+        <img class="img-fluid mock-right" src="img/step4mockup.png">
     </div>
     <div class="step5">
-        <img class="img-fluid" src="img/heromockup.png">
+        <img class="img-fluid mock-left" src="img/step5mockup.png">
         <div>
-            <div>
+            <div class="stepdetail">
                 <h3>Check Past Records</h3><br>
                 <p>MentDetector doesn’t just check and forget, it also keeps track of past records just in case you need
                     it for future reference. The application has a database where it stores this data and you can access
                     it anytime you want.</p>
             </div>
-            <img class="img-fluid" src="img/illust5.png" alt="past record review group illustration">
+            <img class="img-fluid" src="img/fillust5.png" alt="past record review group illustration">
         </div>
     </div>
     <div class="step6">
         <div>
-            <div>
+            <div class="stepdetail">
                 <h3>The Manual</h3><br>
                 <p>Just in case you forget what is what, the application also has a manual page that’ll help you setup
                     you page and also help you as you navigate through it everyday. This manual page has all necessary
                     information you’ll need to make this application work well.</p>
             </div>
-            <img class="img-fluid" src="img/illust6.png" alt="guy at desk illustration">
+            <img class="img-fluid" src="img/illust4.png" alt="guy at desk illustration">
         </div>
-        <img class="img-fluid" src="img/heromockup.png">
+        <img class="img-fluid mock-right" src="img/step6mockup.png">
     </div>
+
+    <h2 class="screens">Check the screens out</h2>
+
+
+    <!--slick slider with lightbox feature-->
+    <div class="row" id="default-demo">
+        <div class="col-xs-4"><a href="img/MentDetector Moblie Page 1.png" data-caption="" target="_blank"
+                class="thumbnail"><img src="img/MentDetector Moblie Page 1.png" alt="" class="img-thumbnail"></a></div>
+        <div class="col-xs-4"><a href="img/MentDetector Moblie Page 2.png" data-caption="" target="_blank"
+                class="thumbnail"><img src="img/MentDetector Moblie Page 2.png" alt="" class="img-thumbnail"></a></div>
+        <div class="col-xs-4"><a href="img/MentDetector Moblie Page 3.png" data-caption="" target="_blank"
+                class="thumbnail"><img src="img/MentDetector Moblie Page 3.png" alt="" class="img-thumbnail"></a></div>
+        <div class="col-xs-4"><a href="img/MentDetector Moblie Page 4.png" data-caption="" target="_blank"
+                class="thumbnail"><img src="img/MentDetector Moblie Page 4.png" alt="" class="img-thumbnail"></a></div>
+        <div class="col-xs-4"><a href="img/MentDetector Moblie Page 5.png" data-caption="" target="_blank"
+                class="thumbnail"><img src="img/MentDetector Moblie Page 5.png" alt="" class="img-thumbnail"></a></div>
+        <div class="col-xs-4"><a href="img/MentDetector Moblie Page 6.png" data-caption="" target="_blank"
+                class="thumbnail"><img src="img/MentDetector Moblie Page 6.png" alt="" class="img-thumbnail"></a></div>
+    </div>
+    <!--slick slider with lightbox feature-->
     <p class="closing">MentDetector will sniff out people who may hurt you before they do.<br> Now, you’re
         <span>one</span> <span>step</span> <span>ahead!</span> </p>
     <footer>
-        <p class="conv">Get <span>tips</span> and <span>insights</span> on the app to have a <span>headstart</span> and
+        <p class="conv">Get amazing <span>tips</span> and <span>insights</span> on the app to have a
+            <span>headstart</span> and
             be on the go
             when it <span>launches!</span></p>
         <!--subscribe form that sends email to database-->
@@ -185,7 +231,7 @@
         </div>
         <!--subscribe form that sends email to database-->
 
-        <span class="end">Copyright 2020 Pharoah. All rights reserved</span>
+        <span class="end">&#169 Copyright 2020. All rights reserved</span>
     </footer>
 
 
@@ -217,6 +263,19 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
     <!--scroll reveal animation-->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5f1082aba45e787d128b9235/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 
 </html>

@@ -3,11 +3,13 @@
 
 html {
     scroll-behavior: smooth;
-    
+    overflow-x: hidden;
 }
 
 body {
   font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  overflow-x: hidden;
 }
 
 
@@ -15,11 +17,11 @@ body {
 #default-demo {
     width: 50%;
     margin: auto;
-  }
+}
 
   .col-xs-4 {
     margin: 10px;
-  }
+}
 /*slick slider with lightbox feature*/
 
 /*scroll to top*/
@@ -53,48 +55,70 @@ body {
 /*scroll to top*/
 
 .hero {
-  /*background-image: url("/img/straightherobackground.png");*/
   background: url("/img/straightherobackground.png") no-repeat center center;
   background-size: cover;
   height: 100%;
   overflow: hidden;
-  /*height: 880px;*/
   color: white;
 }
 
 .hero .logo {
-  margin: 20px 40px;
+  padding: 20px 40px 0px;
 }
 
 .hero1 {
-  height:  800px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-h2 {
-  font-weight: 700;
-}
-
-h2 span {
-  font-weight: 800;
-  font-size: 50px;
+.heromockup {
+  width: 390px;
+  margin: auto;
 }
 
 .intro {
   width: 670px;
-  margin: 40px;
-  
+  margin-left: 40px;
 }
 
 .intro h1 {
-  
+  margin-bottom: 25px;
   font-size: 64px;
+  font-weight: bold;
+}
+
+.intro h2 {
+  font-size: 48px;
   font-weight: bold;
 }
 
 .intro span {
   font-weight: 800;
+}
+
+.countdown {
+  display: flex;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.countdown p {
+  color: #4C4981;
+  background-color: #FFF;
+  width: 200px;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 25px;
+  padding: 25px 10px;
+  margin-right: -10px;
+}
+
+.cdtimer {
+  font-size: 70px;
+  display: block;
+  color: #F29A9D;  
 }
 
 .form-container form {
@@ -103,11 +127,11 @@ h2 span {
 }
 
 .form-container input[type='email'] {
-width: 68%;
-height: 40px;
-border-radius: 4px;
-padding: 16px;
-border-style: none;
+  width: 68%;
+  height: 40px;
+  border-radius: 4px;
+  padding: 16px;
+  border-style: none;
 }
 
 
@@ -120,8 +144,7 @@ border-style: none;
   font-weight: 600;
   border-style: none;
   width: 30%;
-  
-  }
+}
 
 .service {
   display: flex;
@@ -136,7 +159,7 @@ border-style: none;
   margin-top: 100px;
   margin-bottom: 80px;
   text-align: center;
-  color: #4C4981;
+  color: #4C4981; 
 }
 
 .service div {
@@ -145,12 +168,33 @@ width: 315px;
 
 .service h4 {
  font-weight: 600;
-  }
+}
 
 .service hr {
 width: 84px;
 border: 2px solid #4C4981;
 }
+
+.talks img {
+  width: 400px;
+  margin: 10px;
+  object-fit: contain;
+  background-color: #141d26;
+}
+
+.talks {
+display: flex;
+justify-content: space-evenly;
+margin: 30px;
+flex-wrap: wrap;
+}
+
+.steps h2{
+  font-weight: bold;
+  padding: 10px;
+  font-size: 30px;
+}
+  
 
 .steps {
   background-color: #4C4981;
@@ -168,20 +212,19 @@ border: 2px solid #4C4981;
   background-repeat: no-repeat;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
-  margin-right: 100px;
   flex-wrap: wrap;
 }
 
 .step3 {
   background-image: url("../img/pinkblob2.png");
-background-position-y: 70%;
+background-position-y: 50%;
 }
 
 .step5 {
   background-image: url("../img/pinkblob3.png");
-  background-position-y: 20%;
+  background-position: 0 -230px;
 }
+
 
 .step2, .step4, .step6 {
   background-image: url("../img/blueblob1.png");
@@ -190,8 +233,6 @@ background-position-y: 70%;
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: space-evenly;
-  align-items: center;
-  margin-left: 100px;
 }
 
 .step4 {
@@ -203,9 +244,17 @@ background-position-y: 70%;
   background-image: url("../img/blueblob3.png");
 }
 
+.step2 img, .step3 img, .step4 img, .step5 img, .step6 img{
+width: 381px;
+}
+
 .step1 div, .step2 div, .step3 div, .step4 div, .step5 div, .step6 div {
   width: 500px;
   color: #4C4981;
+}
+
+.stepdetail p {
+  font-weight: 500;
 }
 
 .step1 div h3, .step2 div h3, .step3 div h3, .step4 div h3, .step5 div h3, .step6 div h3{
@@ -221,6 +270,9 @@ p.closing, footer span {
   text-align: center;
 }
 
+.closing {
+  padding: 30px;
+}
 
 p.closing span:nth-of-type(1) {
   font-weight: 800;
@@ -242,8 +294,7 @@ p.closing span:nth-of-type(3) {
 }
 
 footer {
-  background-image: url("/img/footermockupbg.png");
-  
+  background-image: url("/img/footermockupbg.png"); 
 }
 
 footer p {
@@ -265,11 +316,43 @@ padding-bottom: 50px;
 color: #FFF;
 }
 
-@media only screen and (max-width: 768px) {
-.hero {
-  background-image: url("/img/mobileherobackground.png");
-
+.screens {
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+color: #4C4981;
+margin-top: 30px;
 }
+
+
+#default-demo {
+  margin: 30px auto;  
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+  background-image: url("/img/mobileherobackground.png");
+}
+
+.hero .logo {
+  display: block;
+  margin: auto;
+}
+
+.heromockup {
+  width: 220px;
+}
+
+/*countdown timer*/
+.countdown p {
+  font-size: 3.88vw;
+  padding: 10px 10px;
+}
+
+.cdtimer {
+  font-size: 8.5vw;
+}
+/*countdown timer*/
 
 .hero1{
   height: 1028px;
@@ -282,6 +365,10 @@ color: #FFF;
 
 .intro h1 {
   font-size: 32px;
+}
+
+.intro h2 {
+  font-size: 9vw;
 }
 
 .service {
@@ -327,6 +414,10 @@ background-size:  contain;
   font-size: 20px;
 }
 
+.step2 div h3 {
+  margin-top: 40px;
+}
+
 .step2 {
   background-image: url("/img/mobileblueblob1.png");
   margin-left: 0px;
@@ -337,7 +428,7 @@ background-size:  contain;
 .step4 {
   background-image: url("/img/mobileblueblob2.png");
   margin-left: 0px;
-  background-position: 0px -250px;
+  background-position: 20px -250px;
   background-size: contain;
 }
 
@@ -351,9 +442,7 @@ background-size:  contain;
 p.closing {
   font-size: 4vw;
   margin-top: 30px;
-}
-
-p.closing span:nth-of-type(1) {
+  padding: 0px;
 }
 
 p.closing span:nth-of-type(2) {
@@ -377,5 +466,12 @@ footer {
   background-position: -180px 0;
 }
 
+.step1 img:nth-child(1), .step2 img:nth-child(2), .step3 img:nth-child(1), .step4 img:nth-child(2), .step5 img:nth-child(1), .step6 img:nth-child(2) {
+  width: 250px;
+}
+
+.screens {
+  font-size: 6vw;
+}
 
 }
