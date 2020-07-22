@@ -9,14 +9,15 @@ $email = $_POST['email'];     //filter_input(INPUT_POST, "email", FILTER_VALIDAT
 if (empty($email)) {
 
   // prompts the user on the html page to input email
-  $email_error = "Please enter email";
+  $email_error = "<div class='server-output'>Please enter email</div>";
 
   // validates the email and runs the code in the elseif block if email passes validation
 } elseif (filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL)) {
   include('dbconnection.php');
+  $email_error = "<div class='server-output'>Thank you for subscribing</div>";
 } else {
   // email failed validation and user is prompted
-  $email_error = "Email is invalid please input valid email";
+  $email_error = "<div class='server-output'>Email is invalid please input valid email</div>";
 }
 
 

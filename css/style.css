@@ -121,6 +121,7 @@ body {
   color: #F29A9D;  
 }
 
+
 .form-container form {
   display: flex;
   justify-content: space-between;
@@ -135,7 +136,6 @@ body {
 }
 
 
-
 .form-container input[type='submit'] {
   height: 40px;
   background-color: #6C63FF;;
@@ -144,6 +144,16 @@ body {
   font-weight: 600;
   border-style: none;
   width: 30%;
+}
+
+/*styling the php output*/
+.server-output {
+  background-color: #f6b71f;
+  border-radius: 8px;
+  text-align: center;
+  color: #FFF;
+  margin-top: 10px;
+  width: 50%;
 }
 
 .service {
@@ -343,6 +353,10 @@ margin-top: 30px;
 #default-demo {
   margin: 30px auto;  
 }
+
+
+
+
 
 @media only screen and (max-width: 768px) {
   .hero {
