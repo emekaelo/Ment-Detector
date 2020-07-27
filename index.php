@@ -11,13 +11,15 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.css">
-    <script type="text/javascript" src="js/script.js" defer></script>
+    <link rel="icon" type="image/x-icon'/" href="img/favicon.svg">
+
 </head>
 
 <body>
     <!--position for "scroll to top" button-->
     <a id="top"></a>
     <!--position for "scroll to top" button-->
+    <!--hero start-->
     <div class="hero">
         <a href="#"><img class="img-fluid logo" src="img/MDlogo.png" alt="Ment Detector logo"></a>
         <div class="hero1">
@@ -70,6 +72,8 @@
         </div>
 
     </div>
+    <!--hero end-->
+    <!--service start-->
     <div class="service">
         <div><svg width="48" height="60" viewBox="0 0 48 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M23.5211 31.3364C23.5744 30.9 23.6277 30.4636 23.6277 30C23.6277 29.5364 23.5744 29.1 23.5211 28.6636L26.4009 26.4273C26.6676 26.2364 26.7209 25.8545 26.5609 25.5545L23.8144 20.8364C23.6544 20.5364 23.2811 20.4273 22.9878 20.5364L19.5746 21.9C18.8546 21.3545 18.0813 20.9182 17.2547 20.5636L16.7214 16.9364C16.7214 16.6091 16.428 16.3636 16.0814 16.3636H10.615C10.452 16.3605 10.2932 16.4162 10.1664 16.521C10.0396 16.6257 9.95297 16.7728 9.92166 16.9364L9.38835 20.5364C8.56172 20.8636 7.78842 21.3545 7.06845 21.8727L3.65527 20.5091C3.33528 20.3727 2.98863 20.5091 2.82864 20.8091L0.0820904 25.5273C-0.0779026 25.8545 0.00209372 26.2091 0.268749 26.4273L3.14862 28.6636C3.09529 29.1 3.06863 29.5636 3.06863 30C3.06863 30.4636 3.12196 30.9 3.17529 31.3364L0.268749 33.6C0.00209372 33.7909 -0.0512371 34.1727 0.108756 34.4727L2.8553 39.1909C3.0153 39.4909 3.38861 39.6 3.68193 39.4909L7.09512 38.1273C7.81509 38.6727 8.58839 39.1091 9.41502 39.4636L9.94833 43.0636C9.97499 43.3909 10.2683 43.6364 10.615 43.6364H16.1081C16.4547 43.6364 16.748 43.3909 16.7747 43.0636L17.308 39.4636C18.1346 39.1364 18.9079 38.6455 19.6279 38.1273L23.0411 39.4909C23.3611 39.6273 23.7077 39.4909 23.8677 39.1909L26.6143 34.4727C26.7743 34.1727 26.7209 33.8182 26.4543 33.6L23.5211 31.3364ZM13.3348 34.7727C10.695 34.7727 8.53505 32.6455 8.53505 30C8.53505 27.3545 10.695 25.2273 13.3348 25.2273C15.9747 25.2273 18.1346 27.3545 18.1346 30C18.1346 32.6455 16.0014 34.7727 13.3348 34.7727ZM42.6669 0.0272727L16.0014 0C13.0682 0 10.6683 2.45455 10.6683 5.45455V13.6364H16.0014V10.9091H42.6669V49.0909H16.0014V46.3636H10.6683V54.5455C10.6683 57.5455 13.0682 60 16.0014 60H42.6669C45.6001 60 48 57.5455 48 54.5455V5.45455C48 2.45455 45.6001 0.0272727 42.6669 0.0272727Z" fill="#6C63FF" />
@@ -98,12 +102,15 @@
                 world of the unknown, this appication can be the difference between life and death.</p>
         </div>
     </div>
-
+    <!--service end-->
+    <!--word of mouth start-->
     <h2 class="screens">What people are saying</h2>
     <div class="talks">
         <img class="img-fluid" src="/img/tweetshotm.jpg" alt="tweet screenshot">
         <img class="img-fluid" src="/img/tweetshotx.jpg" alt="tweet screenshot">
     </div>
+    <!--word of mouth end-->
+    <!--steps start-->
     <div class="steps">
         <h2>How It Works</h2>
     </div>
@@ -183,7 +190,8 @@
         </div>
         <img class="img-fluid mock-right" src="img/step6mockup.png">
     </div>
-
+    <!--steps end-->
+    <!--screenshot start-->
     <h2 class="screens">Check the screens out</h2>
 
 
@@ -197,10 +205,11 @@
         <div class="col-xs-4"><a href="img/MentDetector Moblie Page 6.png" data-caption="" target="_blank" class="thumbnail"><img src="img/MentDetector Moblie Page 6.png" alt="" class="img-thumbnail"></a></div>
     </div>
     <!--slick slider with lightbox feature-->
+    <!--screenshot end-->
     <p class="closing">MentDetector will sniff out people who may hurt you before they do.<br> Now, you’re
         <span>one</span> <span>step</span> <span>ahead!</span> </p>
     <footer>
-        <p class="conv">Get amazing <span>tips</span> and <span>insights</span> on the app to have a
+        <p class="promo">Get amazing <span>tips</span> and <span>insights</span> on the app to have a
             <span>headstart</span> and
             be on the go
             when it <span>launches!</span></p>
@@ -247,6 +256,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
     <!--scroll reveal animation-->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
         var Tawk_API = Tawk_API || {},

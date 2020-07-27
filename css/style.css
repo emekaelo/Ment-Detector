@@ -217,7 +217,9 @@ flex-wrap: wrap;
   margin-bottom: 40px;
 }
 
-.step1, .step3, .step5 {
+.step1,
+ .step3,
+  .step5 {
   background-image: url("/img/pinkblob1.png");
   background-repeat: no-repeat;
   display: flex;
@@ -237,7 +239,9 @@ background-position-y: 50%;
 }
 
 
-.step2, .step4, .step6 {
+.step2,
+ .step4,
+  .step6 {
   background-image: url("../img/blueblob1.png");
   background-repeat: no-repeat;
   background-position: right;
@@ -256,11 +260,20 @@ background-position-y: 50%;
   background-image: url("../img/blueblob3.png");
 }
 
-.step2 img, .step3 img, .step4 img, .step5 img, .step6 img{
+.step2 img,
+ .step3 img,
+  .step4 img,
+   .step5 img,
+    .step6 img{
 width: 381px;
 }
 
-.step1 div, .step2 div, .step3 div, .step4 div, .step5 div, .step6 div {
+.step1 div,
+ .step2 div,
+  .step3 div,
+   .step4 div,
+    .step5 div,
+     .step6 div {
   width: 500px;
   color: #4C4981;
 }
@@ -269,11 +282,17 @@ width: 381px;
   font-weight: 500;
 }
 
-.step1 div h3, .step2 div h3, .step3 div h3, .step4 div h3, .step5 div h3, .step6 div h3{
+.step1 div h3,
+ .step2 div h3,
+  .step3 div h3,
+   .step4 div h3,
+    .step5 div h3,
+     .step6 div h3{
   font-weight: bold;
 }
 
-p.closing, footer span {
+p.closing,
+ footer span {
   font-weight: 600;
   font-size: 25px;
   color: #4C4981;
@@ -322,18 +341,18 @@ footer span {
 }
 
 footer .end {
-font-size: 14px;
-display: block;
-padding-bottom: 50px;
-color: #FFF;
+  font-size: 14px;
+  display: block;
+  padding-bottom: 50px;
+  color: #FFF;
 }
 
 .screens {
-font-size: 30px;
-font-weight: bold;
-text-align: center;
-color: #4C4981;
-margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #4C4981;
+  margin-top: 30px;
 }
 
 .screens {
@@ -360,147 +379,164 @@ margin-top: 30px;
 
 @media only screen and (max-width: 768px) {
   .hero {
-  background-image: url("/img/mobileherobackground.png");
-}
+    background-image: url("/img/mobileherobackground.png");
+  }
 
-.hero .logo {
-  display: block;
-  margin: auto;
-}
+  .hero .logo {
+    display: block;
+    margin: auto;
+  }
 
-.heromockup {
-  width: 220px;
-}
+  .heromockup {
+    width: 220px;
+  }
 
 /*countdown timer*/
-.countdown p {
-  font-size: 3.88vw;
-  padding: 10px 10px;
-}
+  .countdown p {
+    font-size: 3.88vw;
+    padding: 10px 10px;
+  }
 
-.cdtimer {
-  font-size: 8.5vw;
-}
+  .cdtimer {
+    font-size: 8.5vw;
+  }
 /*countdown timer*/
 
-.hero1{
-  height: 1028px;
-}
+  .hero1{
+    height: 1028px;
+  }
 
-.intro {
- margin: 15px;
-  width: 90%;
-}
+  .intro {
+    margin: 15px;
+    width: 90%;
+  }
 
-.intro h1 {
-  font-size: 32px;
-}
+  .intro h1 {
+    font-size: 32px;
+  }
 
-.intro h2 {
-  font-size: 9vw;
-}
+  .intro h2 {
+    font-size: 9vw;
+  }
 
-.service {
-  padding: 30px 23px;
-  margin: 30px auto;
-  border-radius: 16px 16px 16px 16px;
-}
+  .service {
+    padding: 30px 23px;
+    margin: 30px auto;
+    border-radius: 16px 16px 16px 16px;
+  }
 
-.steps {
-  width: 70vw;
-}
+  .steps {
+    width: 70vw;
+  }
 
-.steps h2{
-font-size: 6vw;
-}
+  .steps h2{
+    font-size: 6vw;
+  }
 
-.step1 {
-  background-image: url("/img/mobilepinkblob1.png");
-background-size:  contain;
-}
+  .step1 {
+    background-image: url("/img/mobilepinkblob1.png");
+    background-size:  contain;
+  }
 
-.step3 {
-  background-image: url("/img/mobilepinkblob2.png");
-  background-position: 0 -25%;
-  background-size: contain;
-}
+  .step3 {
+    background-image: url("/img/mobilepinkblob2.png");
+    background-position: 0 -25%;
+    background-size: contain;
+  }
 
-.step5 {
-  background-image: url("/img/mobilepinkblob3.png");
-  background-position: 0 -70px;
-  background-size: contain;
-}
+  .step5 {
+    background-image: url("/img/mobilepinkblob3.png");
+    background-position: 0 -70px;
+    background-size: contain;
+  }
 
-.step1, .step3, .step5 {
-  margin-right: 0px;
-}
+  .step1,
+   .step3,
+    .step5 {
+    margin-right: 0px;
+  }
 
-.step1 div, .step2 div, .step3 div, .step4 div, .step5 div, .step6 div {
-  width: 85vw;
-}
+  .step1 div,
+   .step2 div,
+    .step3 div,
+     .step4 div,
+      .step5 div,
+       .step6 div {
+    width: 85vw;
+  }
 
-.step1 div h3, .step2 div h3, .step3 div h3, .step4 div h3, .step5 div h3, .step6 div h3{
-  font-size: 20px;
-}
+  .step1 div h3,
+   .step2 div h3,
+    .step3 div h3,
+     .step4 div h3,
+      .step5 div h3,
+       .step6 div h3{
+    font-size: 20px;
+  }
 
-.step2 div h3 {
-  margin-top: 40px;
-}
+  .step2 div h3 {
+    margin-top: 40px;
+  }
 
-.step2 {
-  background-image: url("/img/mobileblueblob1.png");
-  margin-left: 0px;
-  background-position-y: -25%;
-  background-size: contain;
-}
+  .step2 {
+    background-image: url("/img/mobileblueblob1.png");
+    margin-left: 0px;
+    background-position-y: -25%;
+    background-size: contain;
+  }
 
-.step4 {
-  background-image: url("/img/mobileblueblob2.png");
-  margin-left: 0px;
-  background-position: 20px -250px;
-  background-size: contain;
-}
+  .step4 {
+    background-image: url("/img/mobileblueblob2.png");
+    margin-left: 0px;
+    background-position: 20px -250px;
+    background-size: contain;
+  }
 
-.step6 {
-  background-image: url("/img/mobileblueblob3.png");
-  margin-left: 0px;
-  background-position: right -150px;
-  background-size: contain;
-}
+  .step6 {
+    background-image: url("/img/mobileblueblob3.png");
+    margin-left: 0px;
+    background-position: right -150px;
+    background-size: contain;
+  }
 
-p.closing {
-  font-size: 4vw;
-  margin-top: 30px;
-  padding: 0px;
-}
+  p.closing {
+    font-size: 4vw;
+    margin-top: 30px;
+    padding: 0px;
+  }
 
-p.closing span:nth-of-type(2) {
-  font-size: 6vw;
-}
+  p.closing span:nth-of-type(2) {
+    font-size: 6vw;
+  }
 
-p.closing span:nth-of-type(3) {
-  font-size: 8vw;
-}
+  p.closing span:nth-of-type(3) {
+    font-size: 8vw;
+  }
 
-footer p {
-  margin-left: 10px;
-  margin-right: 10px;
-}
+  footer p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
-.lastform {
-  width: 80vw;
- }
+  .lastform {
+    width: 80vw;
+  }
 
-footer {
-  background-position: -180px 0;
-}
+  footer {
+    background-position: -180px 0;
+  }
 
-.step1 img:nth-child(1), .step2 img:nth-child(2), .step3 img:nth-child(1), .step4 img:nth-child(2), .step5 img:nth-child(1), .step6 img:nth-child(2) {
-  width: 250px;
-}
+  .step1 img:nth-child(1),
+   .step2 img:nth-child(2),
+    .step3 img:nth-child(1),
+     .step4 img:nth-child(2),
+      .step5 img:nth-child(1),
+       .step6 img:nth-child(2) {
+    width: 250px;
+  }
 
-.screens {
-  font-size: 4vw;
-}
+  .screens {
+    font-size: 4vw;
+  }
 
 }
