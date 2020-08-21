@@ -1,6 +1,6 @@
 // Countdown timer
 // Set the date to countdown to
-var countDownDate = new Date("Aug 15, 2020 12:00:00").getTime();
+var countDownDate = new Date("Dec 31, 2020 11:59:20").getTime();
 
 // Update the countdown timer every 1 second
 var t = setInterval(function () {
@@ -25,9 +25,13 @@ var t = setInterval(function () {
     timer[3].innerHTML = seconds;
 
     // When timer ends, show text
-    if (distance < 0) {
+    if (distance <= 1000) {
         clearInterval(t);
-        timer.innerHTML = "APP LAUNCH!!!";
+        document.querySelector(".launch-status").innerHTML = "APP LAUNCH!!!";
+        timer[0].innerHTML = 0;
+        timer[1].innerHTML = 0;
+        timer[2].innerHTML = 0;
+        timer[3].innerHTML = 0;
     }
 
 }, 1000);
@@ -154,4 +158,5 @@ sr.reveal('.stepdetail', {
     opacity: 0,
     scale: 0.8
 });
+
 // Scroll reveal animation end
