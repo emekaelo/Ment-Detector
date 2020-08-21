@@ -31,7 +31,7 @@
                     ever
                     know.&#x1f609</p>
                 <div></div>
-                <h2>Launching Soon! &#x1f680</h2>
+                <h2 class="launch-status">Launching Soon! &#x1f680</h2>
                 <!--countdown timer-->
                 <div class="countdown">
                     <p><span class="cdtimer">
@@ -103,12 +103,12 @@
         </div>
     </div>
     <!--service end-->
-    <!--word of mouth start
+    <!--word of mouth start-->
     <h2 class="screens">What people are saying</h2>
     <div class="talks">
         <img class="img-fluid" src="/img/tweetshotm.jpg" alt="tweet screenshot">
         <img class="img-fluid" src="/img/tweetshotx.jpg" alt="tweet screenshot">
-    </div>-->
+    </div>
     <!--word of mouth end-->
     <!--steps start-->
     <div class="steps">
