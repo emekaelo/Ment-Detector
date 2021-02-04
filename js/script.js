@@ -1,6 +1,6 @@
 // Countdown timer
 // Set the date to countdown to
-var countDownDate = new Date("Dec 31, 2020 11:59:20").getTime();
+var countDownDate = new Date("Dec 31, 2021 11:59:20").getTime();
 
 // Update the countdown timer every 1 second
 var t = setInterval(function () {
